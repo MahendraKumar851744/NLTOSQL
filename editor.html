@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Schema Editor</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background: #f5f6fa;
+  color: #222;
+}
+
+/* ── Sidebar ─────────────────────────────────────────── */
+#sidebar {
+  width: 360px;
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-right: 1px solid #e2e4ea;
+  height: 100vh;
+}
+
+#sidebar-header {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e2e4ea;
+  flex-shrink: 0;
+}
+
+#sidebar-header h2 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #888;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#search {
+  width: 100%;
+  padding: 7px 12px;
+  font-size: 13px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  background: #f9f9fb;
+}
+#search:focus { border-color: #4a7cdc; background: #fff; }
+
+#tree {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 20px;
+}
+
+/* ── Tree items ──────────────────────────────────────── */
+
+/* Shared header style for both entities and sub-nodes */
+.tree-header {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  user-select: none;
+  font-weight: 700;
+  font-size: 13px;
+  color: #1a1a2e;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tree-header:hover { background: #f0f4ff; }
+.tree-header.active { background: #e6eefe; color: #1967d2; }
+
+/* Entity (depth 0) specific padding */
+.depth-0 > .tree-header {
+  padding: 9px 12px 9px 14px;
+  border-bottom: 1px solid #f0f1f5;
+  font-size: 13px;
+}
+
+/* Sub-node headers inherit depth-based padding via JS inline style */
+
+.arrow {
+  font-size: 9px;
+  color: #aaa;
+  transition: transform 0.15s;
+  flex-shrink: 0;
+}
+.tree-header.open .arrow { transform: rotate(90deg); }
+
+.node-icon {
+  font-size: 11px;
+  flex-shrink: 0;
+}
+
+.tree-children { display: none; }
+.tree-children.open { display: block; }
+
+/* Leaf field item */
+.field-item {
+  font-size: 13px;
+  color: #444;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 12px;
+  /* padding-left set via inline style per depth */
+}
+.field-item:hover { background: #f5f7ff; }
+.field-item.active { background: #e6eefe; color: #1967d2; font-weight: 600; }
+
+.hidden { display: none !important; }
+
+/* ── Editor panel ─────────────────────────────────────── */
+#editor {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#editor-placeholder {
+  margin: auto;
+  text-align: center;
+  color: #ccc;
+  font-size: 15px;
+  line-height: 2.4;
+}
+
+#editor-content {
+  display: none;
+  flex-direction: column;
+  height: 100%;
+  padding: 36px 48px 32px;
+  overflow-y: auto;
+}
+
+#field-name {
+  font-size: 23px;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.badge {
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.b-node   { background: #dbeafe; color: #1d4ed8; }
+.b-leaf   { background: #dcfce7; color: #15803d; }
+.b-table  { background: #ede9fe; color: #6d28d9; }
+.b-column { background: #fef9c3; color: #854d0e; }
+
+label.section-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #888;
+  display: block;
+  margin-bottom: 8px;
+}
+
+#description {
+  width: 100%;
+  min-height: 180px;
+  max-height: 55vh;
+  padding: 14px 16px;
+  font-size: 14px;
+  line-height: 1.7;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  resize: vertical;
+  outline: none;
+  font-family: inherit;
+  color: #222;
+  background: #fff;
+}
+#description:focus {
+  border-color: #4a7cdc;
+  box-shadow: 0 0 0 3px rgba(74,124,220,0.12);
+}
+
+.save-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+#save-btn {
+  padding: 9px 26px;
+  background: #1967d2;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+#save-btn:hover:not(:disabled) { background: #1558b0; }
+#save-btn:disabled { background: #aaa; cursor: default; }
+
+#save-status { font-size: 13px; color: #aaa; }
+#save-status.saved   { color: #16a34a; }
+#save-status.unsaved { color: #dc2626; }
+
+.hint { font-size: 12px; color: #ccc; margin-left: auto; }
+</style>
+</head>
+<body>
+
+<div id="sidebar">
+  <div id="sidebar-header">
+    <h2>Schema Editor</h2>
+    <input id="search" type="text" placeholder="Search fields or descriptions…" autocomplete="off">
+  </div>
+  <div id="tree"></div>
+</div>
+
+<div id="editor">
+  <div id="editor-placeholder">← Select any field or entity to edit its description</div>
+  <div id="editor-content">
+    <div id="field-name"></div>
+    <div class="meta-row" id="meta-row"></div>
+    <label class="section-label" for="description">Description</label>
+    <textarea id="description" spellcheck="true"></textarea>
+    <div class="save-row">
+      <button id="save-btn">Save</button>
+      <span id="save-status"></span>
+      <span class="hint">Ctrl + S</span>
+    </div>
+  </div>
+</div>
+
+<script>
+let data = [];
+let selectedPath = null;
+
+// ── Load ────────────────────────────────────────────────
+async function loadData() {
+  const res = await fetch('/data');
+  data = await res.json();
+  renderTree();
+}
+
+// ── Tree rendering ──────────────────────────────────────
+
+function renderTree() {
+  const tree = document.getElementById('tree');
+  tree.innerHTML = '';
+  data.forEach((entity, ei) => {
+    const el = buildNode(entity, [ei], 0);
+    tree.appendChild(el);
+  });
+}
+
+/**
+ * Recursively builds a node element (entity or sub-node).
+ * @param {object} node  - the data node
+ * @param {number[]} path - current path array
+ * @param {number} depth - nesting depth (0 = top-level entity)
+ */
+function buildNode(node, path, depth) {
+  const wrapper = document.createElement('div');
+  wrapper.className = `depth-${depth}`;
+  wrapper.dataset.nodeType = 'node-wrapper';
+
+  // ── Header ──
+  const header = document.createElement('div');
+  header.className = 'tree-header';
+  header.style.paddingLeft = `${10 + depth * 14}px`;
+  header.style.paddingTop = depth === 0 ? '9px' : '7px';
+  header.style.paddingBottom = depth === 0 ? '9px' : '7px';
+  header.style.paddingRight = '12px';
+  if (depth === 0) header.style.borderBottom = '1px solid #f0f1f5';
+
+  const arrowEl = document.createElement('span');
+  arrowEl.className = 'arrow';
+  arrowEl.textContent = '▶';
+
+  const iconEl = document.createElement('span');
+  iconEl.className = 'node-icon';
+  iconEl.textContent = depth === 0 ? '◈' : '◆';
+  iconEl.style.color = depth === 0 ? '#4a7cdc' : '#7c3aed';
+  iconEl.style.fontSize = depth === 0 ? '11px' : '9px';
+
+  const label = document.createElement('span');
+  label.textContent = node.field;
+
+  header.appendChild(arrowEl);
+  header.appendChild(iconEl);
+  header.appendChild(label);
+
+  // ── Children container ──
+  const childrenDiv = document.createElement('div');
+  childrenDiv.className = 'tree-children';
+
+  header.onclick = () => {
+    toggle(header, childrenDiv);
+    selectItem(node, path, header);
+  };
+
+  // Store search data on header
+  header.dataset.field = node.field.toLowerCase();
+  header.dataset.desc  = (node.description || '').toLowerCase();
+  header.dataset.path  = JSON.stringify(path);
+
+  wrapper.appendChild(header);
+  wrapper.appendChild(childrenDiv);
+
+  // ── Render children (nodes first, then leaves) ──
+  const groups = node.children || [];
+  const allItems = [];
+  groups.forEach((group, gi) => {
+    group.forEach((item, ii) => allItems.push({ item, gi, ii }));
+  });
+
+  // Sort: nodes before leaves
+  allItems.sort((a, b) => {
+    const aScore = a.item.field_type === 'node' ? 0 : 1;
+    const bScore = b.item.field_type === 'node' ? 0 : 1;
+    return aScore - bScore;
+  });
+
+  allItems.forEach(({ item, gi, ii }) => {
+    const itemPath = [...path, gi, ii];
+
+    if (item.field_type === 'node') {
+      // Recurse
+      childrenDiv.appendChild(buildNode(item, itemPath, depth + 1));
+    } else {
+      // Leaf item
+      const leafEl = document.createElement('div');
+      leafEl.className = 'field-item';
+      leafEl.style.paddingLeft = `${26 + (depth + 1) * 14}px`;
+      leafEl.textContent = item.field;
+      leafEl.dataset.field = item.field.toLowerCase();
+      leafEl.dataset.desc  = (item.description || '').toLowerCase();
+      leafEl.dataset.path  = JSON.stringify(itemPath);
+      leafEl.onclick = () => selectItem(item, itemPath, leafEl);
+      childrenDiv.appendChild(leafEl);
+    }
+  });
+
+  return wrapper;
+}
+
+// ── Toggle ──────────────────────────────────────────────
+function toggle(header, childrenDiv, forceOpen = null) {
+  const open = forceOpen !== null ? forceOpen : !header.classList.contains('open');
+  header.classList.toggle('open', open);
+  childrenDiv.classList.toggle('open', open);
+}
+
+// ── Selection ───────────────────────────────────────────
+function clearActive() {
+  document.querySelectorAll('.tree-header.active, .field-item.active')
+    .forEach(el => el.classList.remove('active'));
+}
+
+function selectItem(item, path, el) {
+  clearActive();
+  el.classList.add('active');
+  selectedPath = path;
+
+  // Expand all ancestor node-children so the selected item is visible
+  revealAncestors(el);
+
+  document.getElementById('editor-placeholder').style.display = 'none';
+  const content = document.getElementById('editor-content');
+  content.style.display = 'flex';
+
+  document.getElementById('field-name').textContent = item.field;
+
+  const typeCls = item.field_type === 'node' ? 'b-node' : 'b-leaf';
+  document.getElementById('meta-row').innerHTML = `
+    <span class="badge ${typeCls}">${item.field_type || 'leaf'}</span>
+    ${item.table  ? `<span class="badge b-table">table: ${item.table}</span>`  : ''}
+    ${item.column ? `<span class="badge b-column">col: ${item.column}</span>` : ''}
+  `;
+
+  document.getElementById('description').value = item.description || '';
+  setStatus('');
+}
+
+/** Walk up the DOM and open any .tree-children ancestors */
+function revealAncestors(el) {
+  let cur = el.parentElement;
+  while (cur && cur.id !== 'tree') {
+    if (cur.classList.contains('tree-children')) {
+      cur.classList.add('open');
+      // Also mark its sibling header as open
+      const header = cur.previousElementSibling;
+      if (header && header.classList.contains('tree-header')) {
+        header.classList.add('open');
+      }
+    }
+    cur = cur.parentElement;
+  }
+}
+
+// ── Save ────────────────────────────────────────────────
+async function saveDescription() {
+  if (!selectedPath) return;
+  const desc = document.getElementById('description').value;
+  const btn  = document.getElementById('save-btn');
+  btn.disabled = true;
+  setStatus('Saving…');
+
+  try {
+    const res = await fetch('/update', {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ path: selectedPath, description: desc }),
+    });
+    if (!res.ok) throw new Error();
+
+    // Update local data cache
+    let node = data[selectedPath[0]];
+    for (let k = 1; k < selectedPath.length; k += 2) {
+      node = node.children[selectedPath[k]][selectedPath[k + 1]];
+    }
+    node.description = desc;
+
+    // Update search index on the active element
+    const activeEl = document.querySelector('.tree-header.active, .field-item.active');
+    if (activeEl) activeEl.dataset.desc = desc.toLowerCase();
+
+    setStatus('Saved', 'saved');
+  } catch {
+    setStatus('Save failed', 'unsaved');
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+function setStatus(msg, cls = '') {
+  const el = document.getElementById('save-status');
+  el.textContent = msg;
+  el.className = cls;
+}
+
+// ── Search ──────────────────────────────────────────────
+document.getElementById('search').addEventListener('input', function () {
+  const q = this.value.toLowerCase().trim();
+
+  if (!q) {
+    // Reset — show everything, collapse all
+    document.querySelectorAll('.hidden').forEach(el => el.classList.remove('hidden'));
+    document.querySelectorAll('.tree-children.open').forEach(el => {
+      el.classList.remove('open');
+      const header = el.previousElementSibling;
+      if (header) header.classList.remove('open');
+    });
+    return;
+  }
+
+  // First pass: mark every item visible or hidden
+  const allHeaders = document.querySelectorAll('.tree-header');
+  const allLeaves  = document.querySelectorAll('.field-item');
+
+  allHeaders.forEach(h => {
+    const match = h.dataset.field.includes(q) || h.dataset.desc.includes(q);
+    h.closest(`[data-node-type="node-wrapper"]`).classList.toggle('hidden', !match);
+  });
+  allLeaves.forEach(l => {
+    l.classList.toggle('hidden', !(l.dataset.field.includes(q) || l.dataset.desc.includes(q)));
+  });
+
+  // Second pass: for any visible item, reveal its ancestors
+  const visible = document.querySelectorAll('.tree-header:not(.hidden), .field-item:not(.hidden)');
+  visible.forEach(el => {
+    let cur = el.parentElement;
+    while (cur && cur.id !== 'tree') {
+      if (cur.classList.contains('tree-children')) {
+        cur.classList.add('open');
+        cur.classList.remove('hidden');
+        const header = cur.previousElementSibling;
+        if (header && header.classList.contains('tree-header')) {
+          header.classList.add('open');
+          header.closest('[data-node-type="node-wrapper"]')?.classList.remove('hidden');
+        }
+      }
+      if (cur.dataset?.nodeType === 'node-wrapper') {
+        cur.classList.remove('hidden');
+      }
+      cur = cur.parentElement;
+    }
+  });
+});
+
+// ── Keyboard & events ───────────────────────────────────
+document.addEventListener('keydown', e => {
+  if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+    e.preventDefault();
+    saveDescription();
+  }
+});
+
+document.getElementById('save-btn').addEventListener('click', saveDescription);
+document.getElementById('description').addEventListener('input', () => setStatus('Unsaved changes', 'unsaved'));
+
+loadData();
+</script>
+</body>
+</html>

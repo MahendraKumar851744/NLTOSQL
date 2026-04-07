@@ -1,0 +1,1021 @@
+What type of flooring is used for order #10555?
+Could you check whether an overlay is used for the order #10320?
+Which salesperson handled the order SO_001?
+Who is the installer assigned to order SO_1009?
+Which carrier is handling order 10538?
+When is the order 10102 scheduled for assembly?
+What is the finish used for the order 1011?
+What is the unit price of item PC2484 in the sales order SO_047?
+What's the gross price for item PC1896 on order SO_001?
+What did it cost us to make the item BBP4834 on order SO_001?
+How much of a discount did we give on the item KNOB-SQRD for sales order SO_047?
+What is the total cubic volume of order SO_205?
+What is the profit on sales order SO_001?
+What is the profit percentage on order SO_003-1?
+What is the total amount (before tax) on sales order SO_010?
+What is the total amount including tax for order SO_007?
+What is the cost on sales order SO_009?
+What is the order date of order SO_006?
+When was sales order SO_012 created?
+What is the estimated ship date for order SO_005?
+Who is the salesperson on order SO_011?
+Who is the customer of sales order SO_014?
+What project phase is order SO_013 in?
+Which shipping carrier is assigned to order SO_004?
+What warehouse is order SO_003 shipping from?
+What manifest is sales order SO_007 assigned to?
+Is sales order SO_011 on hold?
+Who created sales order SO_013?
+Who last updated order SO_010?
+When was sales order SO_002 last updated?
+When was the sales order SO_021-3 cancelled?
+What is the unit price for item ROB30 on order SO_001?
+What is the gross price for item DCB36 on order SO_001?
+What is the markup percentage on item PC1896 in order SO_001?
+What is the unit cost for item BBP4834 on order SO_001?
+How much discount was applied to item KNOB-RND on order SO_002?
+What is the discount percentage on item LOCK-CAB in order SO_001?
+What tax rate is applied to item W3636 on order SO_001?
+What is the tax % on item RH3018 in order SO_001?
+What is the line amount for item CATCH-MAG on order SO_001?
+What is the amount including tax for item DOOR-FLAT-1224 on order SO_001?
+What is the profit on item PANEL-PLY-34 in order SO_001?
+What is the profit percentage on item LIGHT-STRIP-24 in order SO_001?
+What is the quantity invoiced for item W3630 on order SO_002?
+What is the weight of item DEP2430 on order SO_002?
+What is the shipped weight for item HFP3 on order SO_002?
+What is the invoiced weight for item KNOB-RND on order SO_002?
+What's the shelf configuration on order SO_041?
+How is the sales order SO_041 packaged?
+When was the order SO_015 shipped?
+Show me the delivery amount for order SO_029.
+Is there any repair for order 10589?
+How many pieces are listed on order #10456?
+How many non pieces are on order #10456?
+What kind of slab front is on order SO_019?
+Does order SO_036 have a pullout tray?
+What glaze is applied to order 10298?
+What species of wood is used on order #10445?
+Could you check whether order SO_018 has a door type specified?
+What kind of hinge did we go with on order 10672?
+How many drawers are required for order #19.
+What kind of edge profile was selected for order SO_025?
+Did we apply a glaze on order 10298?
+Was there a finger pull included on order 10720?
+What type of panel is used for order SO_006-2?
+Could you check if there are any ply ends specified on order SO_014?
+Can you tell me the total amount including tax for order #83019?
+What is the default target profit percentage set on sales order SO_259?
+I need the subdivision for order SO_834.
+What is the shipping distance recorded for sales order SO_217?
+Can you check the distance between origin and destination for order #83456?
+What is the total shipment distance for order SO_669?
+Can you tell me the customer job name on order #91823?
+Is there a shipping manifest linked to sales order SO_148?
+For order #85213, what is the total quantity of all line items combined?
+Could you tell me the slab front style selected on order SO_137?
+What style was chosen for order #74590?
+Who was the serviceman deployed to the site for order SO_411?
+What was the service reason logged for the repair on order 2056?
+What field service request number is associated with order SO_808?
+Is there a service order number linked to the post-sale work on order 1044?
+What are the warranty terms defined for item MOTOR-LIFT on order SO_090?
+Which delivery route has been assigned to order SO_661?
+Which shipping method was requested for order SO_200?
+Who is the designated dispatcher for sales order 3421?
+What is the billed weight calculated for freight on order SO_890?
+Can you find the sales quote number of order SO_334?
+What was the originating opportunity number for order SO_887?
+Which market group does sales order 4452 fall under?
+Which pricing group is applied to order SO_908?
+How is the customer classified in terms of account class for order SO_112?
+Can you retrieve the customer po number associated with SO_221?
+What are the agreed payment terms for sales order 9981?
+What payment method was selected by the customer for order SO_443?
+Which storage area is holding the staging materials for order SO_774?
+I need the serial number for the lift motor (item MOT-88) present on order SO_119.
+Show me the param values for item CUST-ISLAND on order #8843
+What is the current status of sales order #55120?
+Under which division is order SO_440 being processed?
+What tax jurisdiction area applies to order SO_662?
+What is the default markup percentage we are applying for order 9921?
+What was the sales commission amount earned on item CAB-ISL for order SO_101?
+What is the discount percentage applied to order SO_702?
+Did the customer opt for a 5-piece drawer front on order SO_821?
+Are we using flush ends for the cabinetry on order SO_902?
+What is the rail and stile width specification for the doors on order #6641?
+What specific type of hinge was ordered for the concealed cabinets on order SO_115?
+What type of floor are the installers dealing with for order SO_505?
+Which project is the sales order SO_1020 associated with?
+How many installs does the sales order 672927 require?
+Could you check the delivery sequence no. for order SO_881?
+Is the sales order SO_102-A a sub-order or change order?
+What was the specific reason logged for the creation of order SO_332?
+What is the street address for the shipping the order SO_788?
+What is the door option selected for order SO_443?
+Is there a specific drawer type specified for the order SO_222?
+What kind of material selected for construction of drawer box for order SO_654?
+What was the total shipment cost for delivering the order 189280?
+When is the shipment of order SO_250 actually scheduled to be delivered to the customer?
+How much was the punch-list remediation amount recorded for order SO_616?
+Has order SO_909 been marked as received by the customer?
+Is line item 3 (PNT-GL) on order SO_111 currently flagged as on hold?
+How much unpacked quantity is available and ready for item CRN-MLD on order SO_345?
+What is the warehouse shelf bin location to pick item FLR-TMP on order SO_234?
+Can you tell me the total count of distinct line items included in order SO_992?
+What default tax % is applied to order SO_404?
+What is the total quantity of items shipped for order SO_808?
+I need the total weight of items shipped for order 91082.
+What is the total cost associated with the items that shipped on order SO_420?
+For order #82920, what is the scheduled installation date?
+On what date was the service performed for order SO_888?
+Could you confirm the total amount billed for service on order 279383?
+what is the total shipped quantity for item PNL-24 on order SO_012?
+Exactly how many units of item W3036 were ordered on SO_005?
+How many units of item HDL-BRS have already been packed in the warehouse for order SO_099?
+Are there currently any units of item GL-SHLF back ordered for sales order SO_456?
+Regarding order #94210, can you confirm the total amount on the customer's PO?
+What product type is being manufactured for order SO_109?
+What style was chosen for the items on order 10555?
+When is the door date scheduled for order SO_444?
+What type of shipment is used for delivering the order #77123?
+Is the order #8812 marked as sent to the customer yet?
+What is the sequence number for item CAB-BS-24 on order SO_001?
+What’s the cubic volume of item BOX-12 on order SO_442?
+What style did the customer pick for order 74590?
+Did order 10720 come with a finger pull?
+What is the type of the sales order SO_055?
+Who's the selling contact on order SO_310?
+What street address is on file for selling on order SO_480?
+Which country is listed under the selling address for order SO_211?
+What state does the selling address fall under for order SO_375?
+Can you pull the selling city recorded on order SO_190?
+What zip code is tied to the selling address for order #44801?
+What phone number is listed for the selling contact on order SO_722?
+What email address do we have on file for selling on order SO_618?
+What subdivision is tied to order SO_284?
+Who is the shipping contact for order SO_391?
+What is the shipping street address on order SO_503?
+Which country does the shipment go to for order #60432?
+What state is the ship-to address in for order SO_714?
+What city is the order SO_829 shipping to?
+What's the zip code for the shipping destination on order SO_246?
+Is there a phone number on file for the shipping contact on order SO_533?
+Who is the billing customer listed on order SO_671?
+Who is the billing contact on order #72910?
+What billing street address is on record for order SO_447?
+Which country is the billing address for order SO_302 located in?
+What state is the billing address on order SO_819?
+What city is listed on the billing address for order SO_560?
+Can you get me the billing zip code for order #51347?
+What phone number is on the billing contact for order SO_284?
+What email address is recorded for billing on order SO_938?
+What is the package group does order SO_417 belongs to?
+What drawer front style was selected for order SO_731?
+Does order SO_612 have a custom installation noted?
+What is the item description for item TRM-4824 on order SO_003?
+What tax class is applied to item HRDW-KB on order SO_007?
+What is the customer's own item number for item BASE-W36 on order SO_014?
+When is production order PO-3340 expected to be completed?
+Which division is responsible for handling production order PO-5042?
+What's the current status of production order 8821?
+Give me the sales order no. associated to the production order 4405?
+What is the bill-to customer number on production order PO-909?
+How many distinct line items are included on production order 2210?
+What is the total quantity of all items across production order PO-515?
+What's the total cubic volume for logistics planning on production order 808?
+Who created the record for production order PO-101 in the system?
+How many units of item W2430 are we supposed to manufacture for order 200?
+What is the invoiced quantity for item DOOR-33 on production order 118?
+What's the cubic volume for line item 4 on production order PO-500?
+What are the parameters set for item CAB-ISL on production order 34?
+How many units of line item 1 have physically shipped for production order PO-994?
+What was the reason logged for adding line item 5 to production order 229?
+How many pieces are in production order 850?
+How many non-pieces are in production order PO-312?
+What is the name of the customer linked to production order 773?
+Which project does the production order PO-889 assigned to?
+For production order PO-555, what is the style specified?
+When was line item 2 originally added to order PO-808?
+How is the customer account classified for production order PO-112?
+Can you give me the project name associated with production order 1044?
+When was production order PO-334 entered into the system?
+Who was the last person to modify or update production order 8821?
+When was the last time production order PO-5042 was changed?
+What is the original sales order item sequence number tied to line 2 on production order PO-88?
+Pull up the full description for line item 2 on order PO-101.
+What is the parent item number for the component at BOM sequence 5 for line item 2 on production order PO-440?
+Which work center is assigned to execute task sequence 3 for line item 4 on production order PO-1050?
+What was the actual finish date for task sequence 1 on line item 1 for production order 992?
+What is the parameter value for the 'Door Profile' parameter on sequence 2 for production order PO-300?
+What's the cross-reference number for manifest MAN-1042?
+Which division does manifest MAN-3310 belong to?
+Who is the main customer attached to manifest 10934?
+Who is the dispatcher managing manifest 5503?
+What is the delivery route assigned to manifest MNF-209 ?
+Can you check the current status of manifest MAN-6610?
+What type of orders are included in manifest 8834?
+Which carrier is handling the shipment for manifest MAN-4412?
+When is the manifest 3307 scheduled to ship?
+What is the total weight of all orders in the manifest MAN-1155?
+Can you tell me the total cubic volume for the shipment on manifest 7762?
+How many units are we shipping out on manifest M-1120?
+How many distinct items are packed into manifest 884?
+Who originally created manifest MAN-3344?
+When was the manifest 6632 generated in the system?
+Who was the last user to make changes to manifest M-443?
+When was manifest MAN-4470 last updated?
+What's the status of the sales order 5657 on manifest MAN-6650?
+What is the shipping weight for the order #6790 on manifest MAN-1830?
+What subdivision is associated with manifest MAN-1042?
+Which shipping method was selected for manifest 10934?
+What is the tracking number for the shipment on manifest MAN-7740?
+Can you provide the Bill of Lading (BOL) number for manifest M-200?
+Which truck is assigned to transport manifest 5503?
+What is the trailer number attached to manifest MAN-1155?
+At which dock is manifest 8834 scheduled for loading?
+What is the security seal number for the trailer on manifest MAN-4412?
+Who is the driver handling manifest 3307?
+What is the estimated delivery date for manifest MAN-3344?
+What is the calculated freight cost for manifest 6632?
+Is manifest MAN-209 currently flagged as on hold?
+What style was specified for sales order 5657 on manifest MAN-6650?
+Which project is sales order 6790 associated with on manifest MAN-1830?
+What is the required cubic volume to ship for order 6790 on manifest MAN-1830?
+How many units are scheduled to ship for order 5657 on manifest MAN-6650?
+How many distinct items are being shipped for sales order 6790 on manifest MAN-1830?
+On what date was the shipment for manifest MAN-104 placed on the truck?
+What is the scheduled pickup date for manifest 445?
+At what time is the pickup scheduled for manifest 445?
+What is the stop number on the route for manifest MAN-778?
+On what date was manifest 902 officially loaded?
+Has manifest MAN-112 been invoiced yet?
+When was the invoice generated for manifest 883?
+Is freight included in the total for manifest MAN-331?
+Has the manifest 554 been processed in the system?
+What is the sequence number for sales order 5521 on manifest MAN-88?
+Who is the specific customer for sales order 998 on manifest MAN-22?
+What project phase is sales order 665 currently in on manifest MAN-10?
+What are the style parameters attached to sales order 332 on manifest MAN-55?
+When was shipment SHP-100 created?
+What division handles shipment 200?
+Who is the customer for shipment SHP-300?
+What sales order is linked to shipment 400?
+What production order is tied to shipment SHP-500?
+What project does shipment 600 belong to?
+What phase of the project is shipment 700 in?
+Which carrier is shipping SHP-800?
+Is shipment 900 posted?
+On which date was shipment 1000 posted?
+What is the shipping company name for SHP-1100?
+What is the delivery street address for shipment 1200?
+Which country is shipment 1300 heading to?
+What state is shipment 1400 shipping to?
+What city is shipment 1500 shipping to?
+What is the shipping contact phone number for SHP-1600?
+What email address is listed for shipping on SHP-1700?
+What is the destination zip code for shipment 1800?
+What is the total quantity of items in shipment 1900?
+How much does shipment 2000 weigh in total?
+What is the total cubic volume of shipment SHP-2100?
+How many distinct items are in shipment 2200?
+What is the customer account class for shipment 2300?
+When is the shipment SHP-2400 expected to be delivered?
+What is the tracking number for shipment 2500?
+Which warehouse is dispatching shipment 2600?
+What storage area was used for shipment SHP-2700?
+Who created shipment 2800?
+When was shipment record 2900 generated?
+Who updated the shipment record 3000?
+When was shipment SHP-3100 last modified?
+What style is specified for the items in shipment 3200?
+What finish is applied to shipment 3300?
+What kind of hinge is included in shipment 3400?
+Is there a glaze applied to shipment 3500?
+What drawer type is listed for shipment 3600?
+What package group does shipment 3700 belong to?
+Are ply ends specified for shipment 3800?
+What door type is used for shipment 3900?
+What panel style is on shipment 4000?
+What edge profile was chosen for shipment 4100?
+How many pieces are calculated for shipment 4200?
+How many non-pieces are on shipment 4300?
+What is the product type for shipment 4400?
+What wood species is used in shipment 4500?
+What shipping method is assigned to shipment SHP-4600?
+What are the freight terms mentioned for shipment 4700?
+What is the item number for sequence 1 on shipment 4800?
+What is the shipped quantity for item CAB-12 on shipment 4900?
+What is the weight of item PNL-34 on shipment 5000?
+What is the volume of sequence 2 in shipment 5100?
+How many units of item DOOR-1 were originally ordered for shipment 5200?
+How many units of item HDR-99 shipped on shipment 5300?
+How many units of item W3630 were received for shipment 5400?
+What is the sales order number tied to invoice INV-1001?
+On what date was sales invoice 5520 generated?
+What is the invoice type for INV-334?
+Can you check the current status of invoice INV-882?
+Who is the customer listed on sales invoice 9910?
+Which division processed invoice INV-441?
+Who is the salesperson credited for invoice 2099?
+Which project is sales invoice INV-771 associated with?
+What is the customer's job name recorded on invoice 3022?
+Can you retrieve the customer PO number for invoice INV-112?
+What sales price group is applied to invoice 8834?
+What is the tax area applied to invoice INV-550?
+When was invoice 6640 officially posted?
+Is invoice INV-900 marked as posted?
+What is the billing company name on invoice 1044?
+Which country is the billing address for invoice INV-331 located in?
+What email address is on file for billing on invoice 772?
+What is the shipping zip code for invoice INV-808?
+Which shipping carrier was used for the order on invoice 551?
+What are the payment terms agreed upon for invoice INV-200?
+What is the due date for payment on invoice 9931?
+How many total distinct items are billed on invoice INV-440?
+What is the total combined quantity of products on invoice 8820?
+What is the pre-tax amount for sales invoice INV-115?
+What is the total amount including tax for invoice 3390?
+How much is the remaining balance due on invoice INV-774?
+Who created the record for invoice 1011?
+What style is specified for the products on invoice INV-500?
+What finish is applied to the items on invoice 662?
+What wood species was used for the order on invoice INV-88?
+How many pieces are calculated for invoice 909?
+On what date was invoice INV-330 officially paid?
+What is the full economic cost recorded for invoice 445?
+What is the unit cost for item CAB-24 on invoice INV-100?
+What is the unit price for sequence 2 on invoice 550?
+How much discount amount was applied to item DOOR-FLAT on invoice INV-80?
+What is the gross price for item PNL-12 on invoice 334?
+Exactly how many units of item W3630 were billed on invoice INV-12?
+What is the pre-tax line amount for item HDR-99 on invoice 440?
+What is the amount including tax for sequence 4 on invoice INV-55?
+How many units of item CAB-ISL are shipped but not invoiced on INV-99?
+What is the sales order item sequence number for line 1 on invoice 882?
+What is the total weight of item BASE-W36 on invoice INV-20?
+What is the customer's own item number for sequence 3 on invoice 553?
+What was the commission amount earned on item B27 for invoice INV-10?
+I need the serial number for item VDIV-18 on invoice 774.
+What is the parameter lookup value for 'Door Profile' on item sequence 1 for invoice INV-30?
+What is the unit charge for charge sequence 2 on item FP3 for invoice 880?
+What is the total charge amount applied to charge sequence 1 on sequence 3 of invoice INV-11?
+What type of charge is logged for charge sequence 1 on item VSB36 for invoice 902?
+What is the selling city recorded on invoice 1022?
+What is the selling phone number on file for invoice INV-404?
+Which subdivision is the order for invoice 5050 shipping to?
+What shipping method was selected for invoice INV-119?
+Which warehouse processed the goods for invoice 883?
+What is the billing contact name for invoice INV-772?
+What is the default discount percentage applied to invoice 661?
+What is the payment discount date available for invoice INV-205?
+How much is the payment discount amount for early payment on invoice 309?
+What is the total cubic volume of the items on invoice INV-902?
+Who was the last user to update invoice 4410?
+What type of hinge was ordered on invoice INV-33?
+Is there a specific glaze applied to the order on invoice 901?
+Did the customer select flush ends for the cabinets on invoice INV-600?
+What is the guide type specified for the drawers on invoice 114?
+What is the P/L amount recorded on invoice INV-220?
+What is the markup percentage on item DOOR67 for invoice 552?
+What is the tax class assigned to item VB36 on invoice INV-88?
+What is the calculated unit volume for sequence 2 on invoice 991?
+Which shelf bin number is item W3036 located in for invoice INV-44?
+What is the charge percentage for charge sequence 1 on item W1230 for invoice 773?
+What project phase is sales invoice INV-404 currently assigned to?
+What is the selling street address on file for invoice 1120?
+What state is the shipment for invoice 8890 going to?
+What is the default markup percentage applied to invoice INV-33?
+What is the default tax percentage set for invoice 7721?
+What is the payment discount percentage for early payment on invoice INV-10?
+Under which customer account class is invoice 443 categorized?
+What is the total combined weight of all items on invoice INV-900?
+Which storage area is assigned to the overall sales invoice 808?
+What type of package is specified on the additional info for invoice 332?
+Did the customer request ply ends for the cabinets on invoice INV-77?
+What specific door style is noted on invoice 445?
+What is the inside profile specification for the items on invoice 661?
+What shelf configuration was chosen for invoice INV-112?
+Is a finger pull included on the design for invoice 909?
+What type of center panel is used for the order on invoice 550?
+What is the specified drawer front style on invoice INV-22?
+How many non-pieces are recorded for invoice 104?
+What slab front design is applied to invoice 883?
+Is there an overlay mentioned for the cabinets on invoice INV-44?
+What is the discount % applied to item MB24 on invoice 554?
+How much % of tax is charged on sequence 4 of invoice INV-11?
+In which storage area is the item LS36 located for invoice 339?
+Pull up the details for sales order SO_010
+I need to see the complete details for sales order SO_003-1.
+Get me the complete information on order SO_667.
+Can you fetch all the details for order SO_004?
+I need the full details of item W3630 on order SO_002.
+For order SO_001, could you pull up the details on item PC1896?
+Could we review all the information for the W3630 item tied to order SO_002?
+Could you check order SO_001 and bring up everything related to item LOCK-CAB?
+I’m looking for the details of production order PO-3340
+Can you share all the available details for production order 8821?
+Could you please retrieve the full details for production order PO-5042?
+Retrieve all information stored for production order PO-909.
+Show me the details of line item 2 on production order PO-101.
+I want to see full details of the item DOOR-33 on production order 118.
+Could you pull up the details of item W2430 belonging to production order 200?
+I need to go over all the information for manifest MAN-3310.
+Give me the full breakdown on manifest 5503?
+I'd like to look over all the information regarding manifest MNF-209.
+Display all fields for manifest MAN_9915.
+Show me the complete details for order sequence 2 on manifest MAN_2241.
+Give me the details of order SO_221 on manifest MAN_4402?
+Pull up all the details for shipment SHP_7721.
+I need to see everything for shipment SHP_1198.
+Can you retrieve the full shipment details for 90382?
+I'd like to see all the information for shipment 28471.
+Show me the complete line item details for sequence 3 on shipment SHP_7721.
+Pull up everything about item DB42 on shipment 44023.
+I need the full record for line item 1 on shipment SHP_1198.
+Can you locate invoice INV_9921 and display all its information?
+I want to review invoice INV_4403.
+Retrieve all the data for invoice 88214.
+Load the details of invoice INV_1107.
+Show me the line item details for sequence 2 on invoice INV_9921.
+Get me all the info for item MB24 on invoice 33087.
+I want to see sequence 4 on invoice INV_4403.
+Show me all open orders for the customer Ironwood.
+Pull up all delivered orders for the customer kevin.
+Are there any cancelled orders for customer ridgeview?
+Show me all active sales orders for salesperson thomas.
+Which orders of salesperson patrica are currently in production?
+Pull up all fully invoiced orders for salesperson matthew.
+What rush orders are in the junction division that haven't been delivered yet?
+Show me all commercial orders that are partially shipped.
+Find the orders tied to the loft conversion job.
+Show me all orders with the job name Smart Home Upgrade.
+Pull up all fully shipped orders from grandview
+Which orders are being shipped via carrier FedEx?
+Show me all in-transit orders using the UPS carrier for shipment
+Pull up all orders assigned to manifest MAN_003.
+Which orders are on manifest MAN_007?
+Show me all orders that are currently on hold for customer Cabinet Discounters.
+What orders are on hold for salesperson william?
+Show me all orders created by Lauren Brooks.
+Pull up all orders last updated by zachary.
+Which orders were created by robert in 2024?
+Which delivered orders have an amount over $6,000?
+Show me all fully shipped orders where the profit % is below 20%.
+Show me all items of the sales order SO_047
+Which items in sales order SO_004 have the 8.5% tax applied?
+Show me all standard orders for customer Ridgeview that are partially shipped.
+What rush orders in the plaza are still in production?
+Find the orders for customer Blue Ridge that were fully shipped using carrier USPS.
+Which custom orders for salesperson john have a profit percentage above 25%?
+Find all blanket orders for customer Sunridge.
+Which pre orders in the pine ridge division were created by collins?
+Find the contract orders for smart home upgrade job that are delivered.
+Show me the items on order SO_012 that were updated by david.
+Show me all sales orders that are currently in transit.
+Pull up every order that's been submitted but not yet acknowledged.
+Which sales orders are sitting in draft right now?
+I need to see all orders that have been packed and are waiting to go out.
+Give me the list of orders that are ready to ship.
+Show me everything that's been acknowledged by the warehouse.
+Are there any orders in the prepared stage right now?
+List all closed sales orders.
+Pull up all blanket orders across the system.
+Show me every contract order we have on file.
+Which orders are classified as add-on orders?
+I'd like to see all change orders in the system.
+Can you show me all the pre-orders we currently have?
+Show me all orders coming from the cascade division.
+I need the full list of orders under the heights division.
+I'd like to see orders belonging to bayside .
+Show me all metro orders.  
+Which orders are being fulfilled out of trinity DC warehouse?
+Show me all sales orders shipping from the bayport DC.
+Pull up every order assigned to the dallas cold chain facility.
+Which orders are going out via DHL?
+Show me orders scheduled for delivery through lone star overnight.
+Are there any orders stored in the cold storage area?
+Show me all orders sitting in quarantine storage.
+What active orders do we have in the cornerstone division?
+Show me all cancelled orders from the bridgewater division.
+Are there any orders on hold in the clearwater?
+Give me all active rush orders.
+Which custom orders have already been delivered?
+Show me all standard orders that are partially invoiced.
+Are there any blanket orders that have been closed?
+Find all contract orders still sitting in draft.
+What are the springfield based orders that are currently under production?
+Which orders from greenfield are still in transit?
+Can you retrieve all rush orders placed by customer Northwood Designs?
+Can you verify whether customer OakCraft Solutions has any blanket orders?
+Retrieve the custom orders associated with customer maple ridge designs.
+List all delivered orders for salesperson david.
+Show all the cancelled orders associated with salesperson sophia?
+Check if salesperson nicole has any orders currently on hold.
+Can you identify orders for customer pinecrest interiors that are being sent through aramex.
+Help me locate orders from customer cedar park designs that are dispatched via sf express.
+Display lakeside orders that are present at the parmer warehouse.
+Show me all hillside orders stored at the wichita dc.
+Identify residential orders that are dispatched using estes express lines.
+List downtown division orders that are being shipped via ODFL.
+Which orders have a total amount above $10,000?
+Display orders that have a cost higher than $5,000.
+Find all orders with a profit margin below 15%.
+Show me any orders where the total weight is over 500 pounds.
+Pull up orders with more than 20 unique items.
+Which orders are given more than 10% discount?
+Find out if any orders have a customer PO amount below the $2,000 mark.
+Identify active orders with amounts over $8,000.
+Show orders in production that would yield over 30% profit.
+Show partially shipped orders that have more than 50 units in total.
+Which orders from customer willow interiors are still not cancelled?
+List rush orders that haven’t been fully shipped yet.
+Give me all orders of woodmont division that aren't closed.
+Get the orders handled by salesperson michael that are yet to be invoiced.
+Show orders that were created between March 1 and March 31, 2025?
+Fetch all the orders placed in Q4 of 2024.
+Bring those orders that were estimated to be shipped in January 2025.
+Which orders were cancelled in 2024?
+Show me all orders created by sarah in the first half of 2025.
+Which rush orders were placed in February 2025?
+Get all active custom orders belonging to sunset division.
+Do we have any standard orders of customer silverline carpentry that were partially invoiced?
+Find all rush orders in the harbor division that are shipping via UPS.
+Show me the blanket orders from the Gardens division that are on hold.
+List all central orders that were handled by salesperson angela has been delivered
+Pull up all add-on type orders created by james for the landing division.
+Show custom orders from customer Evergreen Cabinet Co. that went out via USPS.
+Bring up eastside orders sourced by alliance DC warehouse which are still in production
+Show Valley division orders that were staged in Finished Goods Storage before being fully shipped.
+Give me all active orders in the meadows division shipping through saia Inc.
+Show me all line items of sales order SO_021.
+Which items on order SO_009 have a profit margin below 10%?
+Are there any back-ordered items on sales order SO_015?
+Show me the items on sales order SO_033 that have already been fully shipped.
+Which items on order SO_055 are discounted more than 5%?
+Pull up all items on sales order SO_018 which have a price more than 200$
+Show me the items on order SO_041 that are currently on hold.
+Show me all freight charges applied on sales order SO_027.
+Are there any fuel surcharges applied on order SO_044?
+Pull up all the assembly fees applied to order SO_019.
+Which items on order SO_008 are charged with a handling fee?
+I want to review all the on-hold custom orders from the Uptown division.
+Pull up salesperson lisa’s orders that are currently in transit and moving via FedEx.
+I'm looking for all the orders from crossroads that were updated by nancy.
+Has the gateway division placed any pre type orders that are still active?
+Please display all production order records in the system.
+Can I get a list of all production orders?
+Show all production orders.
+We need to review all production orders in the system.
+Pull up all the production orders for me.
+What production orders were created this week?
+Please retrieve all production orders created in the last 3 days.
+I'd like to see production orders from the last 7 days.
+Today's production orders
+Yesterday's production orders
+This week's production orders
+This month's production orders
+We need to review the production order entries which were updated by juliet
+I want to see production orders completing today
+We need to review all pending production orders.
+I'd like to see all active production orders.
+Show cancelled production orders
+List production orders which are waiting for materials
+Please display all production orders exceeding a quantity of 50.
+The East division production orders need review.
+Show line items for production order po654.
+What items are in the production order po100?
+Show production orders containing item b12.
+Which items of production order 380390 are marked as repairs or remakes?
+What are the tasks assigned to the production order 12322
+Which production order tasks are set to begin tommorow.
+Show me all the the production related tasks about to complete today.
+I want to see all the production tasks related to cutting of line items.
+Display all the assembly tasks for the production order prod123.
+Which production orders using the antique style.
+Can you pull up all production orders created by michael ross
+Can you list the production orders for customer GreenField Industries
+Could you display the production orders associated with customer Elite Garments Ltd?
+Show production orders that are part of the Winter Apparel Launch project.
+Fetch all production orders linked to the project Denim Revival Project.
+List production orders that follow the formal attire style.
+Can you list production orders exceeding 1,000 units?
+Show me all production orders that are currently in progress.
+Pull up all completed production orders.
+Which production orders have been cancelled?
+List all production orders that are on hold.
+Are there any production orders still waiting to be started?
+Give me all production orders that are past their completion date.
+Show all production orders scheduled to complete this week.
+Which production orders were created in Q1 of 2025?
+Pull up all production orders created between January 1 and March 31, 2025.
+Which production orders are due for completion in April 2025?
+Show me the production orders that were updated yesterday.
+List all production orders created in the last 30 days.
+Show all production orders created by daniel.
+Which production orders were last updated by sarah?
+Pull up all production orders that marcus created this month.
+Show me all production orders for customer Lakewood Interiors.
+Are there any active production orders for BlueCrest Manufacturing?
+List all completed production orders for customer Ridgeline Cabinetry.
+Pull up all production orders belonging to the Northgate division.
+Show me every production order from the riverside division.
+Which production orders are being handled out of the Austin warehouse?
+List all production orders assigned to the Westfield DC.
+Show all production orders linked to the Highland Renovation project.
+Which production orders are tied to the kitchen remodel project phase?
+Pull up all production orders associated with project Coastal Living Refresh.
+List all production orders using the shaker style.
+Show me production orders that are built around the modern flat-panel style.
+Which production orders are using the heritage oak style?
+Show me all production orders with a total quantity above 500 units.
+Which production orders have fewer than 10 items?
+List all production orders where the total weight exceeds 1,000 pounds.
+Pull up production orders with a total cubic volume greater than 200.
+Which production orders include item CAB-220?
+Show all production orders that contain item HINGE-44.
+Are there any production orders that include item W3060?
+Show me all production order tasks assigned to the finishing work center.
+Which production tasks are still not started?
+Pull up all tasks that were completed this week across all production orders.
+List all production order tasks assigned to the sanding routing step.
+Which production order tasks are currently overdue?
+Show me all BOM entries for production order PO-4421.
+Show me all active production orders in the downtown division that were created by robert.
+Which production orders for customer Elmwood Designs are still not completed?
+Pull up all cancelled production orders from the harbor division.
+List all production orders using the vintage style that are currently on hold.
+Show completed production orders for customer Pinecrest Interiors with a total quantity above 200.
+Which production orders were created by lisa in Q4 of 2024 and are still active?
+Show me all production orders in the meadows division that are shipping through the westport warehouse.
+List all repair-type line items across production orders that were updated this month.
+Pull up all production orders that are in the inspection stage.
+Do we have any open production orders for customer thornbury?
+Which production orders for customer fairview cabinet are still pending?
+Pull up every cancelled production order tied to customer amber ridge
+Show me all active production orders handled by salesperson gregory.
+Which of salesperson diana's production orders are currently on hold?
+Pull up the completed production orders associated with salesperson fernando.
+List all cancelled production orders that were tied to salesperson priya.
+Are there any active production orders in the pinewood division?
+Which production orders in the foxglove division are currently on hold?
+Show all production orders in the ridgecrest division for customer pemberton woodworks.
+Which production orders in the lakemont belong to customer copperline cabinet?
+Show me all production orders in the clearfield being fulfilled from the memphis warehouse.
+Which orders under the timberline are assigned to the phoenix DC?
+Pull up all production orders from the fernwood routed through the columbus warehouse.
+Which production orders in the cedarbrook division are using the craftsman style?
+List all production orders in the ashford built around the contemporary style.
+Show me all production orders for customer pemberton woodworks created in 2023.
+Pull up all production orders placed by customer granville furnishings in Q2 of 2024.
+Which production orders of  customer driftwood design are scheduled to complete next week?
+Are there any active production orders for customer Pemberton Woodworks in the ridgecrest division?
+Show completed production orders of customer westbrook that came through the millbrook division.
+Pull up all cancelled production orders for customer ironbark in the thornfield.
+Which production orders created by brittany are still pending?
+Show me all completed production orders that were last updated by vincent.
+List all active production orders that were modified by elena this week.
+Are there any cancelled production orders that were originally created by oscar?
+Show me all production orders that fiona created for customer Stonegate Cabinetry.
+Pull up all production orders that claudia created for the customer westbrook.
+Show me all production orders that patrica created in the sycamore
+Which production orders in the briarwood division were last updated by winston?
+Pull up all production orders that eugene created under the cedarbrook division.
+List all production orders in the foxglove division that were modified by henrietta.
+Show all production orders that oliver created in Q3 of 2023.
+Which production orders were updated by valerie between April and June 2024?
+Pull up all production orders that nathaniel created this quarter.
+List production orders that were created by constance in the last 45 days.
+Show me all active production orders using the slab door style.
+Which beaded-inset style production orders have been cancelled?
+List every on-hold production order built with the transitional style.
+Pull up all completed production orders that used the recessed-panel style.
+Show me all craftsman style production orders coming out of the ashford
+Which production orders in the fernwood division are using the slab door style?
+Are there any active raised-panel style production orders for customer granville furnishings?
+Are there any active production orders tied to the magnolia heights renovation project?
+Show me all completed production orders linked to the waverly kitchen refresh project.
+Which production orders for the birchwood project are still pending?
+Show all production orders under the waverly project for customer stonegate.
+List all production orders tied to the terrace view remodel project for customer steelbar Designs.
+Show me all active production orders with more than 600 units.
+Which completed production orders had a total quantity below 30?
+List all pending production orders with a total weight above 1,500 pounds.
+Show me all production orders in the stonemill with a total quantity above 350.
+List all thornfield orders where the total cubic volume exceeds 400.
+Show me all active production orders for customer cabinet studio with more than 150 units.
+Which active production orders contain item FRAME-77?
+Show me all completed production orders that include item SHELF-12.
+List all pending production orders that have item PANEL-55 as a component.
+Show all production orders for customer coppermill furnishings that include item BASE-31.
+Which tasks on production order PO-7732 haven't been started yet?
+Show me all completed tasks belonging to production order PO-2256.
+Are there any overdue tasks on production order PO-8814?
+Pull up all in-progress tasks for production order PO-3367.
+List all production order BOMs where item BASE-31 appears at the top level.
+Show me all active craftsman style production orders for customer fairview cabinet in the ridgecrest division.
+Which production orders created by brittany for customer kulpe cabinetry are still pending completion?
+Show all high-priority production orders in the cedarbrook division for customer westbrook that haven't been completed yet.
+Which production orders created by fiona in Q1 2025 for the harborlight division are still active?
+Show me all production orders assigned to storage area SA-101.
+Which production orders are staged in the raw materials storage area?
+Show me all production order line items with lot number LOT-2024-089.
+Show me all production tasks assigned to the painting work center.
+Which production orders have tasks in the quality inspection routing?
+Pull up all production tasks scheduled for the CNC machining work center.
+Show me production orders with tasks in the assembly routing step.
+Show me production orders with BOM components costing over $50 per unit.
+Show me all production orders with parameter "Finish Type" set to "Matte".
+Which production orders have the "Edge Banding" parameter configured?
+Pull up production orders where color parameter equals "Natural Oak".
+Show me all production orders linked to sales order SO-8821.
+Which production orders originate from sales orders created in March 2025?
+Pull up production orders tied to sales orders with status "Shipped".
+Show me all production orders that were created in Q1 2025 and are still active.
+Which production orders were completed between January 15 and February 15, 2025?
+List all production orders created in 2024 were updated in 2025.
+Could you pull up all production orders generated to fulfill sales order SO-9942?
+Show me the BOM entries on production order PO-8814 that recorded a scrap quantity greater than 10 units.
+Which production orders did salesperson marcus handle in Q3 2024?
+Show me all active production orders assigned to salesperson priya this month.
+Which production orders were generated from sales order SO_042?
+Show me all production orders for wholesale customers.
+Which production orders belong to retail-class customers?
+Which production orders are being fulfilled out of the denver warehouse?
+List all active production orders being handled at the lakeside warehouse.
+Which production orders are stored in the finished goods area?
+Pull up production orders assigned to storage area SA-205.
+Which production orders have a total cubic volume under 50?
+Show me all production orders from the northgate division where the total volume exceeds 300 cubes.
+Which production orders are scheduled to complete next month?
+I'd like to see all active production orders that haven't been assigned to a warehouse yet.
+Which production orders were created between June 1 and August 31, 2024?
+List orders with total weight between 200 and 800 pounds.
+Show production orders with quantities between 100 and 500 units.
+Show me the top 10 production orders by total quantity.
+List the top 20 most recent production orders created.
+Which are the top 3 production orders with the most line items?
+Give me the top 15 production orders by cubic volume.
+Show me the 10 oldest pending production orders.
+Which are the top 3 production orders with the most line items?
+Pull up the top 25 production orders by quantity for this quarter.
+What are the top 5 production orders currently on hold?
+show me the top 8 active production orders assigned to the Northgate division.
+Which are the top 20 production orders by weight in the East division?
+Give me the top 10 production orders created by michael this year.
+Show the top 15 production orders for customer GreenField Industries.
+What are the top 5 cancelled production orders by quantity?
+List the top 30 production orders scheduled to complete this week.
+Pull up the top 10 production orders with the highest unit count.
+Show me the top 7 production orders from the Westfield DC.
+Which are the top 25 active production orders right now?
+Give me the top 10 production orders by volume for the Cedarbrook division.
+Show the top 5 production orders that are past their completion date.
+List the top 20 production orders created in Q1 2025.
+What are the top 10 production orders using the craftsman style?
+Show me the top 15 production orders assigned to the Austin warehouse.
+Pull up the top 8 production orders for customer Lakewood Interiors.
+Give me the top 5 production orders by weight that are still pending.
+Show the top 30 production orders updated this month.
+List the top 10 production orders from the Riverside division by quantity.
+What are the top 20 production orders linked to the Highland Renovation project?
+Show me the top 15 production orders that were completed last week.
+Pull up the top 10 production orders with quantities above 500 units.
+Which are the top 5 production orders by cubic volume in the Harbor division?
+Give me the top 25 production orders created by sarah this quarter.
+Show the top 10 production orders for customer BlueCrest Manufacturing.
+List the top 8 production orders currently in the inspection stage.
+What are the top 20 production orders by total weight from 2024?
+Show me the top 15 production orders assigned to storage area SA-101.
+Pull up the top 10 production orders using the shaker style.
+Which are the top 5 production orders with the earliest completion dates?
+Give me the top 30 production orders that include item CAB-220.
+Show the top 12 production orders from the Downtown division by quantity.
+List the top 10 production orders last updated by vincent.
+What are the top 20 production orders for the Winter Apparel Launch project?
+Show me the top 15 production orders with quantities between 100 and 500 units.
+Pull up the top 8 production orders created in the last 7 days.
+Which are the top 10 production orders by weight for customer Ridgeline Cabinetry?
+Give me the top 25 production orders that are currently in progress.
+Show the top 5 production orders assigned to the finishing work center.
+List the top 20 production orders from the Ashford division.
+What are the top 10 production orders with the most BOM components?
+Show me all production orders that are either cancelled or on hold.
+Which production orders are from the East or West division?
+Give me all production orders with status pending or in progress.
+Show production orders assigned to the Austin warehouse or Westfield DC.
+Which production orders were created by michael or sarah?
+Pull up all production orders using the craftsman or shaker style.
+List production orders linked to the Highland Renovation or Coastal Living Refresh project.
+Show me production orders that are either completed or shipped.
+Which production orders are in the Northgate, Riverside, or Cedarbrook division?
+Give me all production orders for customer Lakewood Interiors or Ridgeline Cabinetry.
+Show production orders created in Q1 or Q2 of 2025.
+List production orders that are either active or pending completion.
+Which production orders were updated by vincent or elena this month?
+Show me all production orders containing more than 50 pieces.
+I'd like to review production orders that require a high volume of non-piece accessories, specifically over 100 items.
+Which production orders have more than 100 individual pieces?
+Pull up production orders with zero non-piece items.
+Which production orders have a piece count between 30 and 80?
+Show me all tasks that were finished last week across all production orders.
+List all production tasks with an actual start date in Q4 of 2024.
+Which BOM components across all production orders have a scrap percentage above 10%?
+Show me all production orders where the "Wood Species" parameter is set to "Cherry".
+Which production orders have the "Hinge Type" parameter configured as "Soft-Close"?
+Which production orders have "Rail Stile Width" specified as a parameter?
+Show me all manifests that are currently active.
+Pull up every manifest that's been finalized.
+Are there any manifests sitting in pending approval right now?
+Which manifests have been voided?
+List all manifests that are in the staging phase.
+Show me every manifest that's been marked as received.
+Which manifests are currently awaiting carrier pickup?
+Find all manifests that have been fully settled.
+Are there any manifests flagged as incomplete?
+Show me all manifests that have been archived.
+Which manifests are currently under review?
+List all manifests that are in the reconciliation stage.
+Which manifests are going out through ruan transportation?
+Show me all manifests assigned to watkins.
+Which manifests are using blanket-wrap delivery?
+Show me all manifests dispatched through dupre logistics.
+Find manifests that are going out using carrier flatbed transport.
+Pull up all manifests assigned to ohio express carrier.
+Which manifests are being moved through shipping carrier radiant logistics?
+Which manifests are being shipped via ABF carrier?
+List all manifests coming out of the dunmore
+Show me all manifests managed by dispatcher felicity
+Display all manifests created by alexander this week.
+Show me all pending manifests in the system.
+Pull up manifests for customer ashford
+Which manifests has dispatcher obadiah crane been overseeing
+Pull up every manifest record under the catalyst division.
+Display all manifests from the equinox.
+Can you pull up the manifests managed by dispatcher julian?
+Which manifests are assigned to dispatcher benjamin?
+Which manifests belong to customer halcyon cabinetry?
+Pull up manifests containing more than 50 items.
+Which manifests are being handled out of the atlanta hub?
+Show me manifests for customer brookstone interiors.
+Which manifests have a total volume greater than 500 cubes?
+Pull up all manifests created in the last 7 days.
+Show me manifests assigned to the citrus division.
+Which manifests are shipping through conway?
+List all manifests updated by charlotte yesterday.
+Show me all manifests linked to sales order SO_1001.
+Pull up manifests for the downtown project.
+Display all manifests with BOL number BOL_78901.
+Pull up all manifests in the delta
+Show me manifests using daylight transport as carrier.
+Which manifests have more than 100 units to ship?
+List all manifests created by dominic in March 2025.
+Which manifests are staged at the Boston Facility?
+Show me all manifests assigned to Route B7.
+Find all manifests loaded on trailer no. 88
+Pull up manifests for customer dockside furnishings.
+Which manifests belong to the evergreen division?
+Pull up all manifests shipping via echo express.
+List all manifests for the coastal villa Project.
+Which manifests are assigned to truck TRK_501?
+Show me all manifests scheduled for delivery next week.
+Which manifests have a total weight under 500 pounds?
+Which manifests are assigned to delivery route DR-55?
+Pull up all manifests that chastain created.
+Which manifests reference the westport subdivision?
+Pull up all orders where the cost exceeds $4,800.
+Which orders have a total quantity above 60 items?
+which line items have a markup % above 50%? for sales order SO_001?
+Which items on order SO_001 have a markup below 50%?
+Which items on order SO_047 have a profit margin under 15%?
+For all orders on manifest MAN_001 with an amount over $5,000, show me the unit cost on each line item.
+Which line items on sales order SO_010 have more than 10% discount?
+Which items on sales order SO_005 have a unit cost over 200?
+Give me a list of production orders that have a quantity more than 100?
+Are there any production orders with a cubic volume under 10? Pull those up for me.
+Show me all production orders carrying more than 10 different line items.
+Please list the production orders that contain over 50 pieces.
+Show me all orders placed in March 2019.
+Which orders are estimated to be shipped in this month?
+Show me all orders ordered between July and September 2023.
+Which orders have been updated in the last 30 days?
+Show me new orders that were created between January 1 and June 30, 2024?
+Show me all orders scheduled to be installed in February 2025.
+Retrieve all orders scheduled for assembly from March 1 to March 14, 2024
+Which orders shipped in December 2024?
+Which orders were cancelled in the last 90 days?
+Pull up all orders assigned to installer ferrara with a scheduled installation date in the second half of February 2024.
+Retrieve all Cascade division pre-orders with a door date between September 1 and September 20, 2023
+Which orders for customer Maplecrest were delivered in Q3 2024?
+Which rush orders in the Northgate division are scheduled for installation in April 2025?
+What contract orders were serviced by Gloria Hendricks between December 1st and 15th, 2024?
+List all production orders with a completion date before January 1, 2025.
+Find all production orders with a completion date falling in Q3 2024.
+List all production orders created after March 15, 2024.
+Show me all production orders entered into the system before 2023.
+Find all orders created within the first half of 2024.
+Which production orders were modified after December 1, 2024?
+List all production orders that haven't been updated since January 1, 2024.
+Find all completed orders with a completion date within the 2024 calendar year.
+Show me all open orders that were created before January 1, 2024.
+Can I get a breakdown of the cost and price for all items on order SO_047?
+What's the current status of sales orders SO_021, SO_021-1, SO_021-2 and SO_021-3?
+How much profit was made on sales order SO_001?
+When was the order SO_004 placed, and when is it estimated to ship?
+Who created order SO_013 and when was it created?
+What is the status of the sales order #89100?
+Looking at order SO-554, can you give me the total cost, the amount before tax and the customer PO?
+For order #88390, what wood species, finish, and door type were specified?
+Please retrieve the shipping carrier, estimated ship date, and ship to street address for order SO-9921.
+Who is the customer for sales order SO-773, and what project and phase does it fall under?
+Please provide the scheduled installation date and the installer assigned for order ORD-4410.
+What are the drawer box construction and pullout tray specifications on order #SO-112?
+Who is the dispatcher for the sales order SO-089 and what is the shipping method used?
+Can you tell me the warehouse and designated storage area for order #55124?
+Was sales order SO_061 placed on hold, and what is its cancellation date?
+I need to verify the payment method and terms associated with sales order SO_156
+Can you tell me the order date for SO_047 and its status?
+Who is the salesperson and customer of order SO_112?
+For order SO_008, what is the shipping address?
+I need the total amount, cost, and profit for sales order SO_003.
+Who is dispatching order SO_029, and which warehouse is it coming out of?
+I need the delivery route and sequence number assigned to order SO_334.
+Can you check whether order #83521 has been received and marked sent?
+What's the default markup and discount percentage applied to order SO_290?
+For sales order SO_519, who last updated the record and when was that change made?
+What's the punch and service amount recorded for sales order SO_402?
+What is the opportunity number does sales order SO_667 linked to, and which division owns it?
+What panel and edge banding specs are listed on sales order SO_463?
+Identify the market group and the specific customer account class order SO_500 assigned to.
+Regarding order SO_842, I’d like to verify both the packaging method used and the total shipment cost
+Please verify whether the order SO_214 requires installation, and if it is, kindly include the floor type
+I would appreciate if you could verify the hinge and overlay selections for order SO_630.
+Could you find the sales quote number that was used to generate order #91045?
+What is the original sales order number of the sales order 29990?
+Who is the salesperson on order SO_843, and what sales price group was used for pricing?
+Could you provide the name of the serviceman for order #67231, as well as the reason for service?
+For order SO_519, what's the service date and how much was the service amount?
+On order #84210, can you provide the service reason and the field service request number associated with it?
+Please provide the type and status of the order #78929
+I need to check the tax details for sales order 198290. Could you share the tax area and its percentage?
+What finger pull option and style was selected for sales order #79100?
+Could you share the total number of pieces and non-pieces for order 2903984?
+Could you look up the delivery amount for sales order SO_264 and also the date it will be delivered?
+Can you check the delivery amount and the scheduled delivery date for sales order SO_264?
+Which subdivision does the sales order SO_195 associated with?
+I'm reviewing order #89234. Could you share the default profit and the markup percentage for it?
+Please check order #82910 to confirm the drawer front style and let me know whether it features a 5-piece drawer front.
+For order SO_693, could you tell me the ply end treatment and whether the cabinets are being built with flush ends?
+I need to know the customer's PO number and amount for order #87654, can you look that up?
+Can you pull up the style, glaze, and finger pull selections along with the rail stile width for order 45398?
+For production order PO-8890, who is the customer, what is the associated project and phase it is in?
+What is the status and completion date for production order PO-3340?
+Who created production order 4405 and when was it created?
+Who updated production order PO-5042 and when was that change made?
+For production order PO-123, can you tell me the project it's tied to, the total quantity of items, and the overall volume?
+Please show me the total items, quantity, and cubic measurements for order PO-515.
+For production order 8821, give me the customer name and the division responsible.
+Which sales order and bill-to customer number are associated with production order PO-909?
+What's the customer account classification and style for production order PO-555?
+I need the status, division, and completion date for production order PO-101.
+For production order 773, what is the customer name, sales order number, and current status?
+Provide the ordered, shipped, and invoiced quantities for line item 4 on production order PO-500?
+Give me the item number and its description for line item 2 on production order PO-101.
+What is the line-item type and reason for line item 5 on production order 229?
+For item DOOR-33 on production order 118, provide the ordered and shipped quantities.
+Can you pull the description and parameter values for item CAB-ISL on production order 34?
+For line item 1 on production order PO-994, what is the SOI sequence number and the quantity shipped?
+Who created line item 3 on production order PO-808 and when was it created?
+What are the shipped and invoiced quantities for item W2430 on production order 200?
+For BOM entry 3 under line item 1 on production order PO-200, what is the component item number and its name?
+What is the parent item number and name for BOM sequence 5 on line item 2 of production order 34?
+What is the BOM level and required quantity for entry 2 (Line 1) on production order PO-500?
+What are the raw material constraints and the parent BOM sequence number for BOM entry 4 on line item 3, production order PO-312?
+For BOM sequence 1 under line item 2 of production order 850, what's the item name, quantity, and level?
+What is the routing task and work center for task 2 on line item 1 of production order PO-3340?
+When did task 3 on line item 1 of production order 118 actually start and finish?
+For task 1 on line item 2 of production order PO-889, provide the task order, routing task, and work center.
+Can you tell me the start and end dates for task 5 under line item 1 of production order 2210?
+How many pieces and non-pieces are in production order 850?
+For production order PO-3340, what's the completion date, total items and quantity?
+What is the parameter name and value for line item sequence 1 on production order PO-555?
+For production order PO-101, give me the customer name and the total pieces count.
+What is the status of production order 2210, and what are its pieces and non-pieces counts?
+Can you provide the division, customer, and bill-to customer number for production order PO-112?
+I need the sales order number, project name, and style for production order PO-889.
+Pull up production order PO-88 and let me know the item number, description, and SOI sequence for line item 2?
+I am requesting the ordered and shipped quantities, as well as the cubic volume for line item 1 of prod order PO-994.
+For BOM entry 2 on line item 1 of production order PO-200, give me the item no, name and raw material constraints.
+Can you provide the total quantity and cubes for production order 808?
+Under production order PO-312, line item 1, BOM seq 1: show me the parent BOM sequence no., parent item number, and required quantity.
+What's the customer account class and division for production order 773?
+For production order 200, I want description and quantity required for item W2430
+Regarding production order PO-889, I need to see its style, status, and the date it was completed
+Who are the users responsible for creating and updating production order PO-808, and what is its recorded completion date?
+Can you pull up all the orders for customers whose name starts with "Apex"?
+Find all sales orders where the customer job name contains the word "Renovation".
+Find orders whose customer name ends with "Group".
+Show me all the orders that have a customer PO ending with 'rev'.
+Which items of the order SO_002 didn't get a discount?
+Are there any open orders that aren't assigned to a manifest?
+Are there orders on manifest MAN_003 that haven't been delivered?
