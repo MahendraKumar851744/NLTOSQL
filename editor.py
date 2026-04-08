@@ -33,6 +33,7 @@ class UpdateReq(BaseModel):
     #   … and so on (pairs of group_idx, item_idx after the first element)
     path: List[int]
     description: str
+    short_description: str = ""   # only meaningful for node items
 
 
 @app.put("/update")
@@ -51,6 +52,9 @@ def update(req: UpdateReq):
             gi, ii = path[k], path[k + 1]
             item = item["children"][gi][ii]
         item["description"] = req.description
+        # Only persist short_description on node items
+        if "short_description" in item:
+            item["short_description"] = req.short_description
     except (IndexError, KeyError, TypeError):
         raise HTTPException(status_code=404, detail="Item not found at given path")
 

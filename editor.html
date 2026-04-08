@@ -180,10 +180,8 @@ label.section-label {
   margin-bottom: 8px;
 }
 
-#description {
+.desc-textarea {
   width: 100%;
-  min-height: 180px;
-  max-height: 55vh;
   padding: 14px 16px;
   font-size: 14px;
   line-height: 1.7;
@@ -195,10 +193,14 @@ label.section-label {
   color: #222;
   background: #fff;
 }
-#description:focus {
+.desc-textarea:focus {
   border-color: #4a7cdc;
   box-shadow: 0 0 0 3px rgba(74,124,220,0.12);
 }
+#description       { min-height: 180px; max-height: 45vh; }
+#short-description { min-height: 72px;  max-height: 20vh; }
+
+#short-desc-section { margin-top: 24px; }
 
 .save-row {
   display: flex;
@@ -243,7 +245,13 @@ label.section-label {
     <div id="field-name"></div>
     <div class="meta-row" id="meta-row"></div>
     <label class="section-label" for="description">Description</label>
-    <textarea id="description" spellcheck="true"></textarea>
+    <textarea id="description" class="desc-textarea" spellcheck="true"></textarea>
+
+    <div id="short-desc-section">
+      <label class="section-label" for="short-description">Short Description</label>
+      <textarea id="short-description" class="desc-textarea" spellcheck="true" placeholder="Brief one-line summary (used as business context for SQL generation)"></textarea>
+    </div>
+
     <div class="save-row">
       <button id="save-btn">Save</button>
       <span id="save-status"></span>
@@ -400,6 +408,14 @@ function selectItem(item, path, el) {
   `;
 
   document.getElementById('description').value = item.description || '';
+
+  const isNode = !item.column;
+  const shortSection = document.getElementById('short-desc-section');
+  shortSection.style.display = isNode ? 'block' : 'none';
+  if (isNode) {
+    document.getElementById('short-description').value = item.short_description || '';
+  }
+
   setStatus('');
 }
 
@@ -422,8 +438,9 @@ function revealAncestors(el) {
 // ── Save ────────────────────────────────────────────────
 async function saveDescription() {
   if (!selectedPath) return;
-  const desc = document.getElementById('description').value;
-  const btn  = document.getElementById('save-btn');
+  const desc      = document.getElementById('description').value;
+  const shortDesc = document.getElementById('short-description').value;
+  const btn       = document.getElementById('save-btn');
   btn.disabled = true;
   setStatus('Saving…');
 
@@ -431,7 +448,11 @@ async function saveDescription() {
     const res = await fetch('/update', {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ path: selectedPath, description: desc }),
+      body: JSON.stringify({
+        path: selectedPath,
+        description: desc,
+        short_description: shortDesc,
+      }),
     });
     if (!res.ok) throw new Error();
 
@@ -441,6 +462,7 @@ async function saveDescription() {
       node = node.children[selectedPath[k]][selectedPath[k + 1]];
     }
     node.description = desc;
+    if ('short_description' in node) node.short_description = shortDesc;
 
     // Update search index on the active element
     const activeEl = document.querySelector('.tree-header.active, .field-item.active');
@@ -519,6 +541,7 @@ document.addEventListener('keydown', e => {
 
 document.getElementById('save-btn').addEventListener('click', saveDescription);
 document.getElementById('description').addEventListener('input', () => setStatus('Unsaved changes', 'unsaved'));
+document.getElementById('short-description').addEventListener('input', () => setStatus('Unsaved changes', 'unsaved'));
 
 loadData();
 </script>

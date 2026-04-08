@@ -2,7 +2,7 @@
   {
     "id": 1,
     "field": "SALES ORDERS",
-    "description": "The definitive parent record capturing a customer's confirmed purchase. It acts as the master container for the transaction. You MUST map to this key if the query contains generic or specific references to an 'order', 'sales order', 'customer order', or specific identifiers like 'order number', or 'order ID'. It encompasses the overarching configurations, dimensions, quantities, pricing, and exact cabinetry items the customer requested before any manufacturing begins.",
+    "description": "A Sales Order is the central business document that formalizes a customer's purchase commitment and orchestrates end-to-end order fulfillment. From a business perspective, it serves as the single source of truth that connects sales, items ordered, operations, finance, and customer service teams around a unified transaction.\n\nIt serves four main functions:\n1. Financial & Customer Agreement: Captures billing/shipping details, pricing, discounts, taxes, payment terms, expected profits, and salesperson commissions to formalize the commercial contract.\n2. Product Configuration: Details the exact specifications of ordered items—including custom dimensions, styles, materials, finishes, and option parameters—to ensure accurate production and customer satisfaction.\n3. Manufacturing Driver: Links ordered items directly to their Bill of Materials (BOM), dictating raw material requirements, component hierarchies, and assembly schedules for shop floor execution.\n4. Logistics & Fulfillment: Tracks the physical lifecycle from warehouse allocation, packing, and shipping weights to carrier assignment, delivery confirmation, and post-sale installation or service.\n\nTrigger Keywords: [Sales Order, Order, SO, Customer Order, Sales Record, Order Document, Sales Transaction, Fulfillment Order, Job Order, Project Order, Order Entry, Order Header, Customer Purchase, Sales File, Order Request, SO Header, Order Master]\n\nAdditional Information: A sales order may have sub-orders or change orders, identified by the original order number followed by a hyphen and sequence number (e.g., 903930-1, 903930-2).",
     "table": "SALES_ORDER",
     "column": "",
     "children": [
@@ -1165,7 +1165,8 @@
               }
             ]
           ],
-          "field_type": "node"
+          "field_type": "node",
+          "short_description": ""
         },
         {
           "id": 116,
@@ -1285,7 +1286,8 @@
               }
             ]
           ],
-          "field_type": "node"
+          "field_type": "node",
+          "short_description": ""
         },
         {
           "id": 117,
@@ -1423,7 +1425,8 @@
               }
             ]
           ],
-          "field_type": "node"
+          "field_type": "node",
+          "short_description": ""
         },
         {
           "id": 118,
@@ -1798,7 +1801,8 @@
                     }
                   ]
                 ],
-                "field_type": "node"
+                "field_type": "node",
+                "short_description": ""
               },
               {
                 "id": 36,
@@ -1909,7 +1913,8 @@
                     }
                   ]
                 ],
-                "field_type": "node"
+                "field_type": "node",
+                "short_description": ""
               },
               {
                 "id": 37,
@@ -1984,11 +1989,13 @@
                     }
                   ]
                 ],
-                "field_type": "node"
+                "field_type": "node",
+                "short_description": ""
               }
             ]
           ],
-          "field_type": "node"
+          "field_type": "node",
+          "short_description": ""
         },
         {
           "id": 119,
@@ -2045,16 +2052,18 @@
               }
             ]
           ],
-          "field_type": "node"
+          "field_type": "node",
+          "short_description": ""
         }
       ]
     ],
-    "field_type": "node"
+    "field_type": "node",
+    "short_description": "A sales order is a record of a customer's purchase that lists the items ordered, their quantities and prices, along with billing, shipping, and payment details.\nAdditional Information: A sales order may have sub-orders or change orders, identified by the original order number followed by a hyphen and sequence number (e.g., 903930-1, 903930-2)."
   },
   {
     "id": 2,
     "field": "PRODUCTION ORDERS",
-    "description": "The manufacturing entity representing all physical shop-floor work required to build the cabinetry. You MUST map to this key if the query references the physical creation process. This includes explicit keywords and actions like 'production', 'manufacturing', 'fabrication', 'assembly', 'machining', 'cutting', 'building', or 'shop-floor status'. It strictly tracks the physical transformation of raw materials into finished cabinets, completely distinct from the financial or logistics steps.",
+    "description": "A Production Order is the primary internal execution document that drives the manufacturing and assembly process of items or products on the shop floor. \nExplicit Distinction: Unlike a Sales Order, which captures the commercial transaction with the customer, the Production Order is strictly focused on the physical creation of the items. \nIt serves as the master blueprint for operations, translating customer commitments into actionable labor routing, material consumption, and shop floor tasks.\n\nIt serves four main functions:\n1. Unified Manufacturing Record: Consolidates all producible items from a Sales Order—including its sub-orders or change orders—into a single production run.\n2. Shop Floor Routing: Defines the operational sequence, assigning tasks to work centers and tracking actual vs. planned start/finish dates.\n3. Material Planning: Links items to their Bill of Materials (BOM), specifying components, raw material constraints, costs, and scrap allowances.\n4. Configuration & Output Tracking: Translates customer specs into producible pieces while tracking quantities, weight, and volume for fulfillment handoff.\n\nTrigger Keywords: [Production Order, Manufacturing Order, Work Order, Prod Order, Shop Floor Order, Job Ticket, Assembly Order, Fabrication Order, Production Record, Routing Order, Manufacturing Job, Work Ticket, Production Ticket]",
     "table": "PRODUCTION_ORDER",
     "column": "",
     "children": [
@@ -2535,7 +2544,8 @@
                     }
                   ]
                 ],
-                "field_type": "node"
+                "field_type": "node",
+                "short_description": ""
               },
               {
                 "id": 23,
@@ -2664,11 +2674,13 @@
                     }
                   ]
                 ],
-                "field_type": "node"
+                "field_type": "node",
+                "short_description": ""
               }
             ]
           ],
-          "field_type": "node"
+          "field_type": "node",
+          "short_description": ""
         },
         {
           "id": 26,
@@ -2761,11 +2773,13 @@
               }
             ]
           ],
-          "field_type": "node"
+          "field_type": "node",
+          "short_description": ""
         }
       ]
     ],
-    "field_type": "node"
+    "field_type": "node",
+    "short_description": "A production order is a manufacturing record that specifies what items to produce, their quantities, required materials, and production steps, linked to a customer's sales request.\nAdditional Information: A single production order is created per sales request, consolidating the main record and all its sub- or change variants "
   },
   {
     "id": 3,
@@ -3259,11 +3273,13 @@
               }
             ]
           ],
-          "field_type": "node"
+          "field_type": "node",
+          "short_description": ""
         }
       ]
     ],
-    "field_type": "node"
+    "field_type": "node",
+    "short_description": ""
   },
   {
     "id": 4,
@@ -4116,11 +4132,13 @@
               }
             ]
           ],
-          "field_type": "node"
+          "field_type": "node",
+          "short_description": ""
         }
       ]
     ],
-    "field_type": "node"
+    "field_type": "node",
+    "short_description": ""
   },
   {
     "id": 5,
@@ -4414,7 +4432,7 @@
         {
           "id": 32,
           "field": "Installs",
-          "description": "Total weight of the items installed or delivered.",
+          "description": "[TOTAL_WEIGHT] Total weight of the items.",
           "table": "sales_invoice",
           "column": "TOTAL_WEIGHT",
           "children": [],
@@ -4917,7 +4935,8 @@
               }
             ]
           ],
-          "field_type": "node"
+          "field_type": "node",
+          "short_description": ""
         },
         {
           "id": 73,
@@ -5037,7 +5056,8 @@
               }
             ]
           ],
-          "field_type": "node"
+          "field_type": "node",
+          "short_description": ""
         },
         {
           "id": 74,
@@ -5175,7 +5195,8 @@
               }
             ]
           ],
-          "field_type": "node"
+          "field_type": "node",
+          "short_description": ""
         },
         {
           "id": 75,
@@ -5469,7 +5490,8 @@
                     }
                   ]
                 ],
-                "field_type": "node"
+                "field_type": "node",
+                "short_description": ""
               },
               {
                 "id": 27,
@@ -5553,14 +5575,17 @@
                     }
                   ]
                 ],
-                "field_type": "node"
+                "field_type": "node",
+                "short_description": ""
               }
             ]
           ],
-          "field_type": "node"
+          "field_type": "node",
+          "short_description": ""
         }
       ]
     ],
-    "field_type": "node"
+    "field_type": "node",
+    "short_description": ""
   }
 ]

@@ -202,10 +202,11 @@ class RecursiveExtractionService:
                 for item in meta["items"]:
                     if item["field"] in selected:
                         matched_items.append({
-                            "field":      item["field"],
-                            "table":      item.get("table", ""),
-                            "column":     item.get("column", ""),
-                            "field_type": "leaf",
+                            "field":       item["field"],
+                            "table":       item.get("table", ""),
+                            "column":      item.get("column", ""),
+                            "field_type":  "leaf",
+                            "description": item.get("description", ""),
                         })
                         selected_leaf_fields.append(item["field"])
 
@@ -215,10 +216,12 @@ class RecursiveExtractionService:
                     selected_nodes.append(item)
                     # Capture the node itself before recursing into its children
                     matched_items.append({
-                        "field":      item["field"],
-                        "table":      item.get("table", ""),
-                        "column":     item.get("column", ""),
-                        "field_type": "node",
+                        "field":             item["field"],
+                        "table":             item.get("table", ""),
+                        "column":            item.get("column", ""),
+                        "field_type":        "node",
+                        "description":       item.get("description", ""),
+                        "short_description": item.get("short_description", ""),
                     })
                     recurse_tasks.append(self._traverse_children(question, item, depth + 1))
 
